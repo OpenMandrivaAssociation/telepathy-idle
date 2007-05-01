@@ -1,5 +1,5 @@
 Name:           telepathy-idle
-Version:        0.0.4
+Version:        0.0.5
 Release:        %mkrel 1
 Summary:        A Telepathy connection manager implementation for the IRC protocol
 
@@ -45,5 +45,3 @@ make install DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
-
-
