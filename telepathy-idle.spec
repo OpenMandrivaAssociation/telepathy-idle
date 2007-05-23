@@ -35,7 +35,7 @@ A Telepathy connection manager implementation for the IRC protocol.
 
 %build
 %configure 
-make %{?_smp_mflags}
+%make 
 
 
 %install
