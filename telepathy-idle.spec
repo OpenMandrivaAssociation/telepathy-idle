@@ -13,9 +13,9 @@ BuildRequires: pkgconfig
 BuildRequires: glib2-devel
 BuildRequires: dbus-glib-devel
 BuildRequires: openssl-devel
-
+BuildRequires: telepathy-glib
 Requires:	telepathy-filesystem
-
+Requires:	telepathy-glib
 
 %description
 
