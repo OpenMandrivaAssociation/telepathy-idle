@@ -15,6 +15,7 @@ BuildRequires: dbus-glib-devel
 BuildRequires: openssl-devel
 BuildRequires: telepathy-glib
 BuildRequires: libxslt-devel libxslt-proc
+BuildRequires: python-pyxml
 Requires:	telepathy-filesystem
 Requires:	telepathy-glib
 
