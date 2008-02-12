@@ -20,7 +20,6 @@ Requires:	telepathy-filesystem
 Requires:	telepathy-glib
 
 %description
-
 A Telepathy connection manager implementation for the IRC protocol.
 
 %files
