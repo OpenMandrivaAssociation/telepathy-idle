@@ -12,7 +12,7 @@ BuildRequires:	pkgconfig
 BuildRequires:	glib2-devel
 BuildRequires:	dbus-glib-devel
 BuildRequires:	openssl-devel
-BuildRequires:	telepathy-glib-devel
+BuildRequires:	libtelepathy-glib-devel
 BuildRequires:	libxslt-devel libxslt-proc
 BuildRequires:	python-pyxml
 Requires:	telepathy-filesystem
