@@ -1,6 +1,6 @@
 Name:		telepathy-idle
-Version:	0.1.6
-Release:	%mkrel 3
+Version:	0.1.9
+Release:	%mkrel 1
 Summary:	A Telepathy connection manager implementation for the IRC protocol
 
 Group:		Networking/Instant messaging
