@@ -33,5 +33,5 @@ export PYTHON=%__python2
 %files
 %{_datadir}/dbus-1/services/org.freedesktop.Telepathy.ConnectionManager.idle.service
 %{_datadir}/telepathy/managers/idle.manager
-%{_libdir}/telepathy-idle
+%{_libexecdir}/telepathy-idle
 %{_mandir}/man8/telepathy-idle.8*
