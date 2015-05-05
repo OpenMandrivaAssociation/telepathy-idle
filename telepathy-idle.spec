@@ -23,6 +23,7 @@ A Telepathy connection manager implementation for the IRC protocol.
 %setup -q
 
 %build
+export PYTHON=%__python2
 %configure
 %make
 
