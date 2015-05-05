@@ -1,19 +1,18 @@
 Name:		telepathy-idle
-Version:	0.1.14
-Release:	2
+Version:	0.2.0
+Release:	1
 Summary:	A Telepathy connection manager implementation for the IRC protocol
 
 Group:		Networking/Instant messaging
 License:	LGPLv2
 URL:		http://telepathy.freedesktop.org/wiki/
 Source0:	http://telepathy.freedesktop.org/releases/%{name}/%{name}-%{version}.tar.gz
-BuildRequires:	glib2-devel
+BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(dbus-glib-1)
 BuildRequires:	pkgconfig(openssl)
-
 BuildRequires:	pkgconfig(telepathy-glib)
-BuildRequires:	pkgconfig(libxslt) libxslt-proc
-BuildRequires:	python-pyxml
+BuildRequires:	pkgconfig(libxslt)
+BuildRequires:	libxslt-proc
 Requires:	telepathy-filesystem
 Requires:	telepathy-glib
 
@@ -24,8 +23,7 @@ A Telepathy connection manager implementation for the IRC protocol.
 %setup -q
 
 %build
-autoreconf -fi
-%configure2_5x
+%configure
 %make
 
 %install
