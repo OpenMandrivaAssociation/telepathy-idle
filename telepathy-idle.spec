@@ -12,6 +12,7 @@ BuildRequires:	pkgconfig(dbus-glib-1)
 BuildRequires:	pkgconfig(openssl)
 BuildRequires:	pkgconfig(telepathy-glib)
 BuildRequires:	pkgconfig(libxslt)
+BuildRequires:	pkgconfig(python2)
 BuildRequires:	libxslt-proc
 Requires:	telepathy-filesystem
 Requires:	telepathy-glib
@@ -20,15 +21,15 @@ Requires:	telepathy-glib
 A Telepathy connection manager implementation for the IRC protocol.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
 export PYTHON=%__python2
 %configure
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %{_datadir}/dbus-1/services/org.freedesktop.Telepathy.ConnectionManager.idle.service
