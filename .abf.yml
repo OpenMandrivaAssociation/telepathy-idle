@@ -1,5 +1,2 @@
-removed_sources:
-  telepathy-idle-0.1.12.tar.gz: b350fe02abec01c020996d2ef2f70062a3bf0dc7
-  telepathy-idle-0.1.14.tar.gz: db65de0f2b20ebb138a3bbf339dd8bce8a78ed2d
 sources:
-  telepathy-idle-0.2.0.tar.gz: 932c11e7c131cc106ef0a6670158535925d9ca9e
+  telepathy-idle-0.2.2.tar.gz: d07e27162e798df65d2ecc96b8fea08a2d615828
