@@ -5,7 +5,7 @@ Summary:	A Telepathy connection manager implementation for the IRC protocol
 
 Group:		Networking/Instant messaging
 License:	LGPLv2
-URL:		http://telepathy.freedesktop.org/wiki/
+URL:		https://telepathy.freedesktop.org/wiki/
 Source0:	http://telepathy.freedesktop.org/releases/%{name}/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(dbus-glib-1)
